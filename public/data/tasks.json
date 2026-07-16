@@ -1,0 +1,169 @@
+[
+  {
+    "id": "t1",
+    "title": "Increase staging DB connection pool limit and add alerting",
+    "description": "Connection pool exhaustion caused the staging outage on 2026-07-12. Bump the pool limit and wire up alerting so we catch it before it takes staging down again.",
+    "status": "todo",
+    "sourceMeetingId": "m2-eng-sync",
+    "sourceMeetingTitle": "Weekly Eng Sync",
+    "assignee": "Jordan Lee",
+    "dueDate": "2026-07-18",
+    "createdAt": "2026-07-13T15:00:00.000Z"
+  },
+  {
+    "id": "t2",
+    "title": "Triage code review backlog and reassign stale PRs",
+    "status": "todo",
+    "sourceMeetingId": "m2-eng-sync",
+    "sourceMeetingTitle": "Weekly Eng Sync",
+    "assignee": "Sri",
+    "createdAt": "2026-07-13T15:05:00.000Z"
+  },
+  {
+    "id": "t3",
+    "title": "Add visible focus states to onboarding buttons",
+    "description": "Casey flagged missing focus states on the skip button during design review; needs to cover all onboarding buttons for WCAG AA compliance.",
+    "status": "todo",
+    "sourceMeetingId": "m3-design-review",
+    "sourceMeetingTitle": "Design Review: Onboarding Flow",
+    "assignee": "Priya Nair",
+    "dueDate": "2026-07-20",
+    "createdAt": "2026-07-10T18:30:00.000Z"
+  },
+  {
+    "id": "t4",
+    "title": "Profile the export feature and identify the bottleneck",
+    "description": "Customers report CSV export is slow for large datasets. Bug is already filed; need root cause before it can be fixed.",
+    "status": "todo",
+    "sourceMeetingId": "m4-customer-feedback",
+    "sourceMeetingTitle": "Customer Feedback Debrief",
+    "assignee": "Jordan Lee",
+    "createdAt": "2026-07-08T19:00:00.000Z"
+  },
+  {
+    "id": "t5",
+    "title": "Design launch graphics for social and in-app banner",
+    "status": "todo",
+    "sourceMeetingId": "m6-marketing-launch",
+    "sourceMeetingTitle": "Marketing Launch Planning",
+    "assignee": "Casey Morgan",
+    "dueDate": "2026-08-01",
+    "createdAt": "2026-07-06T17:00:00.000Z"
+  },
+  {
+    "id": "t6",
+    "title": "Finalize the notifications revamp spec",
+    "description": "Top Q3 priority - support tickets about missed alerts are up 20%. Spec needs to be locked before Dev can start backend scoping in earnest.",
+    "status": "in_progress",
+    "sourceMeetingId": "m1-q3-roadmap",
+    "sourceMeetingTitle": "Q3 Roadmap Planning",
+    "assignee": "Maya Chen",
+    "dueDate": "2026-07-17",
+    "createdAt": "2026-07-14T16:00:00.000Z",
+    "updatedAt": "2026-07-15T09:15:00.000Z"
+  },
+  {
+    "id": "t7",
+    "title": "Spike on WebSocket vs polling for real-time notification delivery",
+    "status": "in_progress",
+    "sourceMeetingId": "m1-q3-roadmap",
+    "sourceMeetingTitle": "Q3 Roadmap Planning",
+    "assignee": "Dev Patel",
+    "createdAt": "2026-07-14T16:10:00.000Z",
+    "updatedAt": "2026-07-15T10:00:00.000Z"
+  },
+  {
+    "id": "t8",
+    "title": "Investigate flaky integration tests in the checkout suite",
+    "description": "CI has been flaky for two days, blocking several PRs from merging.",
+    "status": "in_progress",
+    "sourceMeetingId": "m2-eng-sync",
+    "sourceMeetingTitle": "Weekly Eng Sync",
+    "assignee": "Alex Kim",
+    "dueDate": "2026-07-16",
+    "createdAt": "2026-07-13T15:10:00.000Z",
+    "updatedAt": "2026-07-14T11:00:00.000Z"
+  },
+  {
+    "id": "t9",
+    "title": "Update progress indicator color contrast to meet WCAG AA",
+    "status": "in_progress",
+    "sourceMeetingId": "m3-design-review",
+    "sourceMeetingTitle": "Design Review: Onboarding Flow",
+    "assignee": "Casey Morgan",
+    "createdAt": "2026-07-10T18:25:00.000Z",
+    "updatedAt": "2026-07-12T14:00:00.000Z"
+  },
+  {
+    "id": "t10",
+    "title": "Rewrite the pricing page copy and get feedback from 3 customers",
+    "description": "Three separate customers flagged the pricing page as confusing, particularly around the enterprise tier.",
+    "status": "in_progress",
+    "sourceMeetingId": "m4-customer-feedback",
+    "sourceMeetingTitle": "Customer Feedback Debrief",
+    "assignee": "Maya Chen",
+    "dueDate": "2026-07-22",
+    "createdAt": "2026-07-08T19:05:00.000Z",
+    "updatedAt": "2026-07-11T13:00:00.000Z"
+  },
+  {
+    "id": "t11",
+    "title": "Fix staging outage hotfix and deploy",
+    "status": "done",
+    "sourceMeetingId": "m2-eng-sync",
+    "sourceMeetingTitle": "Weekly Eng Sync",
+    "assignee": "Dev Patel",
+    "createdAt": "2026-07-13T09:00:00.000Z",
+    "updatedAt": "2026-07-13T10:30:00.000Z"
+  },
+  {
+    "id": "t12",
+    "title": "Update onboarding copy for step 2",
+    "status": "done",
+    "sourceMeetingId": "m3-design-review",
+    "sourceMeetingTitle": "Design Review: Onboarding Flow",
+    "assignee": "Priya Nair",
+    "createdAt": "2026-07-10T18:35:00.000Z",
+    "updatedAt": "2026-07-13T16:00:00.000Z"
+  },
+  {
+    "id": "t13",
+    "title": "File bug for slow CSV export",
+    "status": "done",
+    "sourceMeetingId": "m4-customer-feedback",
+    "sourceMeetingTitle": "Customer Feedback Debrief",
+    "assignee": "Jordan Lee",
+    "createdAt": "2026-07-08T19:10:00.000Z",
+    "updatedAt": "2026-07-08T19:10:00.000Z"
+  },
+  {
+    "id": "t14",
+    "title": "Confirm launch date target with engineering",
+    "description": "End of Q3, pending notifications revamp completion.",
+    "status": "done",
+    "sourceMeetingId": "m6-marketing-launch",
+    "sourceMeetingTitle": "Marketing Launch Planning",
+    "assignee": "Sri",
+    "createdAt": "2026-07-06T17:15:00.000Z",
+    "updatedAt": "2026-07-06T17:15:00.000Z"
+  },
+  {
+    "id": "t15",
+    "title": "Draft a one-pager on technical lead responsibilities",
+    "status": "todo",
+    "sourceMeetingId": "m5-1on1-manager",
+    "sourceMeetingTitle": "1:1 with Manager",
+    "assignee": "Sri",
+    "createdAt": "2026-07-09T20:00:00.000Z"
+  },
+  {
+    "id": "t16",
+    "title": "Loop in finance directly about the analytics vendor budget delay",
+    "status": "in_progress",
+    "sourceMeetingId": "m5-1on1-manager",
+    "sourceMeetingTitle": "1:1 with Manager",
+    "assignee": "Alex Kim",
+    "createdAt": "2026-07-09T20:05:00.000Z",
+    "updatedAt": "2026-07-10T09:00:00.000Z"
+  }
+]

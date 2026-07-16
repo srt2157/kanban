@@ -1,0 +1,50 @@
+[
+  {
+    "id": "m1-q3-roadmap",
+    "title": "Q3 Roadmap Planning",
+    "date": "2026-07-14",
+    "attendees": ["Sri", "Maya Chen", "Dev Patel", "Priya Nair"],
+    "summary": "Reviewed Q3 priorities across the platform and growth workstreams. Agreed to ship the notifications revamp before the analytics dashboard rework. Budget for the new analytics vendor still needs sign-off.",
+    "notes": "We walked through the Q3 roadmap draft. Notifications revamp is the top priority since support tickets about missed alerts are up 20%. Analytics dashboard rework slips to late Q3.\n\n- [ ] Maya to finalize the notifications revamp spec by end of week\n- [ ] Dev to scope backend changes needed for push notification batching\nTODO: Sri to get budget sign-off from finance for the new analytics vendor\n- [ ] Priya to draft the Q3 roadmap doc and share with leadership\nAction: @Dev to spike on WebSocket vs polling for real-time notification delivery\n\nOpen question: do we need a feature flag rollout for notifications or can we ship directly to all users? Decided to revisit after Dev's spike."
+  },
+  {
+    "id": "m2-eng-sync",
+    "title": "Weekly Eng Sync",
+    "date": "2026-07-13",
+    "attendees": ["Sri", "Dev Patel", "Alex Kim", "Jordan Lee"],
+    "summary": "Standup-style sync covering CI flakiness, the staging environment outage, and code review backlog.",
+    "notes": "CI has been flaky on the integration test suite for two days, blocking several PRs. Staging went down briefly yesterday due to a database connection pool exhaustion issue, resolved but needs a permanent fix. Code review backlog is growing.\n\nTODO: Alex to investigate flaky integration tests in the checkout suite\n- [ ] Jordan to increase the staging DB connection pool limit and add alerting\nAction: @Sri to triage the code review backlog and reassign stale PRs\n- [x] Dev fixed the staging outage hotfix and deployed it this morning\n\nNo other blockers reported. Next sync same time next week."
+  },
+  {
+    "id": "m3-design-review",
+    "title": "Design Review: Onboarding Flow",
+    "date": "2026-07-10",
+    "attendees": ["Sri", "Priya Nair", "Casey Morgan"],
+    "summary": "Reviewed the redesigned onboarding flow. Overall positive feedback, a few accessibility gaps to close before it ships.",
+    "notes": "Walked through the new 3-step onboarding flow in Figma. Feedback was largely positive - simpler than the current 5-step flow. Casey flagged two accessibility issues: low contrast on the progress indicator and missing focus states on the skip button.\n\n- [ ] Casey to update the progress indicator color contrast to meet WCAG AA\nTODO: Priya to add visible focus states to all onboarding buttons\nAction: @Sri to schedule a follow-up usability test with 5 new users\n- [ ] Priya to update the onboarding copy for step 2 based on today's feedback\n\nTarget: ship behind a feature flag to 10% of new signups next sprint."
+  },
+  {
+    "id": "m4-customer-feedback",
+    "title": "Customer Feedback Debrief",
+    "date": "2026-07-08",
+    "attendees": ["Sri", "Maya Chen", "Jordan Lee"],
+    "summary": "Reviewed the last batch of customer interviews. Top themes: confusing pricing page, desire for a mobile app, and slow export feature.",
+    "notes": "Went through 8 customer interviews from the past two weeks. Three separate customers mentioned the pricing page is confusing, particularly around the enterprise tier. Two customers asked about a mobile app. Export feature is reported as slow for large datasets.\n\nTODO: Maya to rewrite the pricing page copy and get it in front of 3 customers for feedback\n- [x] Jordan already filed a bug for the slow CSV export and it's in the backlog\nAction: @Sri to summarize interview themes and share with the product team\n- [ ] Jordan to profile the export feature and identify the bottleneck\n\nMobile app request logged as a future consideration, not prioritized this quarter."
+  },
+  {
+    "id": "m5-1on1-manager",
+    "title": "1:1 with Manager",
+    "date": "2026-07-09",
+    "attendees": ["Sri", "Alex Kim"],
+    "summary": "Career growth check-in and discussion of current project load.",
+    "notes": "Good check-in on career goals - Sri interested in growing into more of a technical lead role. Discussed current project load feels balanced but the analytics vendor sign-off has been a recurring blocker.\n\n- [ ] Sri to draft a one-pager on technical lead responsibilities to discuss next 1:1\nTODO: Alex to loop in finance directly about the analytics vendor budget delay\n\nNo other action items - mostly a check-in conversation."
+  },
+  {
+    "id": "m6-marketing-launch",
+    "title": "Marketing Launch Planning",
+    "date": "2026-07-06",
+    "attendees": ["Sri", "Priya Nair", "Casey Morgan", "Maya Chen"],
+    "summary": "Planned the launch campaign for the notifications revamp, tentatively targeting end of Q3.",
+    "notes": "Discussed launch messaging and channels for the notifications revamp once it ships. Casey will lead visual assets, Priya owns the blog post and changelog entry.\n\n- [ ] Casey to design launch graphics for social and in-app banner\nAction: @Priya to draft the changelog entry and blog post outline\nTODO: Maya to coordinate a customer email announcement with the lifecycle team\n- [x] Sri confirmed the launch date target with engineering (end of Q3, pending notifications revamp completion)\n\nWill revisit timeline once Dev's WebSocket spike from the roadmap meeting is done."
+  }
+]
